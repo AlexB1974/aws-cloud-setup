@@ -5,24 +5,78 @@
   <title>AWS Cloud Setup – Alex</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      padding: 40px;
-      text-align: center;
-    }
-    h1 {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
       color: #333;
     }
-    p {
-      font-size: 18px;
-      color: #555;
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #e0e0e0;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #004080;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #004080;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
-  <h1>Hi, I'm Alex </h1>
-  <p>Welcome to my AWS Cloud Setup project.</p>
-  <p>This site documents how I built a cloud environment using AWS, Python, and GitHub Pages.</p>
-  <p>Feel free to explore the repository and journal for more details.</p>
+  <header>
+    <h1>AWS Cloud Setup Project</h1>
+    <p>by Alex – Stockholm, Sweden</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#setup">Setup</a>
+    <a href="#journal">Journal</a>
+    <a href="https://github.com/Alex98174/aws-cloud-setup" target="_blank">GitHub Repo</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Alex, a cloud enthusiast based in Stockholm. This project documents how I built a basic AWS environment using Python and GitHub Pages. It's part of my learning journey in cloud architecture and automation.</p>
+  </section>
+
+  <section id="setup">
+    <h2>Project Setup</h2>
+    <p>The setup includes IAM user creation, AWS CLI configuration, EC2 and S3 access via Python, and public documentation hosted on GitHub Pages.</p>
+    <p>For full technical details, see the <a href="https://github.com/Alex98174/aws-cloud-setup/blob/main/README.md" target="_blank">README.md</a>.</p>
+  </section>
+
+  <section id="journal">
+    <h2>Problem Journal</h2>
+    <p>Throughout the project, I encountered several issues—from GitHub Pages visibility to AWS CLI authentication. I documented all of them in a technical journal.</p>
+    <p>Read the full journal <a href="https://github.com/Alex98174/aws-cloud-setup/blob/main/journal.md" target="_blank">here</a>.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Alex – All rights reserved</p>
+  </footer>
 </body>
 </html>
